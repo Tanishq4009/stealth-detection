@@ -27,4 +27,3 @@ No audio leaves the device.
 1. **Firmware:** install the Edge Impulse Arduino library, copy `secrets.example.h` to `secrets.h`, fill in your Wi-Fi, Cloudinary and OneSignal values, then upload to an ESP32 Wrover (Huge APP partition, PSRAM on).
 2. **App:** copy `.env.example` to `.env`, set your OneSignal App ID, then run `flutter pub get` and `flutter run`.
 
-`secrets.h` and `.env` are git-ignored. Never commit real keys.
